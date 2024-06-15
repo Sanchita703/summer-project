@@ -1,0 +1,33 @@
+.cart-container {
+    position: relative;
+    display: inline-block;
+}
+
+#submit {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+#cart-count {
+    
+    color: white;
+    border-radius: 50%;
+    height:10px;
+    width:10px;
+    position: absolute;
+    
+    font-size: 12px;
+    display: inline-block;
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
